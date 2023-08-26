@@ -1,0 +1,208 @@
+.ButHov{
+    border: 1px solid black;
+    width: 8vw;
+    height: 6vh;
+   background: none;
+   border: none;
+   color: white;
+   font-weight: bold;
+   font-size: 2vh;
+   transition: 0.45s;
+   text-decoration: none;
+}
+
+
+.ButHov:hover{
+    background-color: white;
+    color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.Text1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;    
+    color: white;
+}
+
+.ButHov2{
+    width: 15vw;
+    height: 9vh;
+    border: 1px solid white;
+    background: none;
+    color: white;
+    font-weight: bold;
+    font-size: 2vh;
+    transition: 0.45s;
+}
+
+.ButHov2:hover{
+    background-color: #89364a;
+    color: white;
+}
+
+.ButHov21{
+    width: 15vw;
+    height: 9vh;
+    border: 1px solid white;
+    background: none;
+    color: white;
+    font-weight: bold;
+    font-size: 2vh;
+    transition: 0.45s;
+}
+
+.ButHov21:hover{
+    background-color: #d7b643;
+    color: white;
+}
+
+
+#next {
+    background-color: gray;
+    position: absolute;
+    top: 140vh;
+    left: 695px;
+    transition: 0.45s;
+}
+
+#next:hover {
+    background-color: white;
+}
+
+#prev:hover {
+    background-color: white;
+}
+
+#prev {
+    background-color: gray;
+    position: absolute;
+    top: 140vh;
+    left: 55px;
+    transition: 0.45s;
+}
+
+#img {
+    width: 600px;
+    height: 800px;
+}
+
+.Ran1::after {
+    color: black;
+}
+
+.Ran1:hover{
+    background-color: white;
+}
+
+.Ran2:hover{
+    background-color: white;
+}
+
+
+.Ran2::after {
+    color: black;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.slide {
+    border-radius: 20px;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    flex: 1;
+    transition: 500ms ease-in-out;
+}
+
+.slide.active{
+    flex: 10;
+}
+
+.slide.active{
+    opacity: 1;
+}
+
+.scale-up-center {
+	animation: scale-up-center 0.4s linear both;
+}
+
+
+.card{
+    overflow: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    transition: 0.3s; 
+    width: 385px; height: 700px;
+    border: 5px solid black;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.imgCard{
+    transition: 0.3s;
+    margin-top: 25px;
+}
+
+.imgCard:hover{
+    transform: scale(1.1);
+}
+
+.imgDiv1{
+    display: flex; align-items: center; justify-content: center;
+}
+
+
+
+
+.model {
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+}
+
+.model1 {
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+}
+
+.model2 {
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+}
+
+.model3 {
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+}
+
+.model4 {
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+}
+
+.model5 {
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+}
+
